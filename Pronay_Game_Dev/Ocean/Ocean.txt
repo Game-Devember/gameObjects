@@ -1,0 +1,41 @@
+1)create a NURBS plane option box (name this plane oceanPlane)
+>width = 40
+>length = 40
+>patches U and V = 30
+
+2)convert the NURBS plane into a Softbody
+- press f4 to get in the dynamics mode
+>soft/Rigid body dropdown menu
+>create soft body option box
+>creation option = duplicate, Make original soft
+>uncheck duplicate input graph
+>weight = .30
+
+Ok ocean plane is now created. now to make it move like one.
+
+1)go to your outliner and select the oceanPlane, click on the + next to it to reveal the particles
+2)select the particles
+3)while still in the dynamic mode (f4) and oceanParticle still selected
+>Fields
+>turbulence > name it ocean Turbulence
+>set magnitude to 7
+>attenuation to .4
+>frequency to 4
+>noise ratio to 1
+> interpolation type to quadratic (this is not in the option menu, after u hit create , it's in the last option in the turbulence field menu on the right)
+
+Ok, going a bit further, u can create an air field for more realism
+
+1)select the oceanParticles again
+>field
+>air option box
+>magnitude = 3
+attenuation = .7
+direction xyz = .8, 1, .3
+spread to .7
+everything else is default.
+
+
+
+
+https://support.solidangle.com/display/mayatut/Rendering+an+Ocean+with+Displacement
