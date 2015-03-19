@@ -1,0 +1,22 @@
+newmtl initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd smallObjects_Textured.jpg
+bump shutter_normal.tga -bm 0.488722
+Ni 1.00
+newmtl randomTaurus1:lambert1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd smallObjects_Textured.jpg
+bump smallObjects_Textured_normal.tga -bm 0.864662
+Ni 1.00
